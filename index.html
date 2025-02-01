@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customizable Profile Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Customize Your Profile</h1>
+    <div class="profile-card">
+      <img src="https://via.placeholder.com/150" alt="Profile Picture" id="profile-pic">
+      <h2 id="profile-name">Your Name</h2>
+      <p id="profile-bio">Your bio goes here...</p>
+      <div class="social-links" id="social-links">
+        <!-- Social links will be dynamically added here -->
+      </div>
+    </div>
+
+    <div class="customize-form">
+      <input type="text" id="name-input" placeholder="Enter your name">
+      <textarea id="bio-input" placeholder="Enter your bio"></textarea>
+      <input type="text" id="social-input" placeholder="Enter social media link">
+      <label for="profile-pic-input" class="upload-btn">Upload Profile Picture</label>
+      <input type="file" id="profile-pic-input" accept="image/*" style="display: none;">
+      <button onclick="updateProfile()">Update Profile</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

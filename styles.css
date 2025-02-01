@@ -29,7 +29,7 @@ body {
     height: 150px;
     border-radius: 50%;
     margin-bottom: 15px;
-    object-fit: cover; /* Ensures the image fits well */
+    object-fit: cover; 
   }
   
   .profile-card h2 {
